@@ -1,2 +1,2 @@
 # non-zero
-A macro fro creating non-zero integers (with type inference).
+A macro for creating non-zero integers (with type inference).

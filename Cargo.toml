@@ -1,0 +1,14 @@
+[package]
+name = "non-zero"
+version = "0.1.0"
+authors = ["SLUCHABLUB"]
+edition = "2024"
+description = "A macro for creating constant non-zero integers (with type inference)."
+readme = "README.md"
+repository = "https://github.com/SLUCHABLUB/non-zero"
+license = "MIT"
+keywords = ["non-zero", "nonzero"]
+categories = ["rust-patterns", "mathematics", "no-std"]
+
+[dev-dependencies]
+trybuild = "1.0"

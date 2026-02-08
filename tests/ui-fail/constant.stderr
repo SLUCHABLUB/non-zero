@@ -1,8 +1,8 @@
-error[E0080]: evaluation of `_::{constant#0}` failed
+error[E0080]: evaluation panicked: tried initialising a non-zero value to zero
  --> tests/ui-fail/constant.rs:3:34
   |
 3 | const _: std::num::NonZero<u8> = non_zero!(0);
-  |                                  ^^^^^^^^^^^^ the evaluated program panicked at 'tried initialising a non-zero value to zero', $DIR/tests/ui-fail/constant.rs:3:34
+  |                                  ^^^^^^^^^^^^ evaluation of `_::{constant#0}` failed here
   |
   = note: this error originates in the macro `$crate::panic::panic_2021` which comes from the expansion of the macro `non_zero` (in Nightly builds, run with -Z macro-backtrace for more info)
 
@@ -14,11 +14,11 @@ note: erroneous constant encountered
   |
   = note: this note originates in the macro `non_zero` (in Nightly builds, run with -Z macro-backtrace for more info)
 
-error[E0080]: evaluation of `_::{constant#0}` failed
+error[E0080]: evaluation panicked: tried initialising a non-zero value to zero
  --> tests/ui-fail/constant.rs:4:35
   |
 4 | const _: std::num::NonZero<u16> = non_zero!(0);
-  |                                   ^^^^^^^^^^^^ the evaluated program panicked at 'tried initialising a non-zero value to zero', $DIR/tests/ui-fail/constant.rs:4:35
+  |                                   ^^^^^^^^^^^^ evaluation of `_::{constant#0}` failed here
   |
   = note: this error originates in the macro `$crate::panic::panic_2021` which comes from the expansion of the macro `non_zero` (in Nightly builds, run with -Z macro-backtrace for more info)
 
@@ -30,11 +30,11 @@ note: erroneous constant encountered
   |
   = note: this note originates in the macro `non_zero` (in Nightly builds, run with -Z macro-backtrace for more info)
 
-error[E0080]: evaluation of `_::{constant#0}` failed
+error[E0080]: evaluation panicked: tried initialising a non-zero value to zero
  --> tests/ui-fail/constant.rs:5:35
   |
 5 | const _: std::num::NonZero<u32> = non_zero!(0);
-  |                                   ^^^^^^^^^^^^ the evaluated program panicked at 'tried initialising a non-zero value to zero', $DIR/tests/ui-fail/constant.rs:5:35
+  |                                   ^^^^^^^^^^^^ evaluation of `_::{constant#0}` failed here
   |
   = note: this error originates in the macro `$crate::panic::panic_2021` which comes from the expansion of the macro `non_zero` (in Nightly builds, run with -Z macro-backtrace for more info)
 
@@ -46,11 +46,11 @@ note: erroneous constant encountered
   |
   = note: this note originates in the macro `non_zero` (in Nightly builds, run with -Z macro-backtrace for more info)
 
-error[E0080]: evaluation of `_::{constant#0}` failed
+error[E0080]: evaluation panicked: tried initialising a non-zero value to zero
  --> tests/ui-fail/constant.rs:6:35
   |
 6 | const _: std::num::NonZero<u64> = non_zero!(0);
-  |                                   ^^^^^^^^^^^^ the evaluated program panicked at 'tried initialising a non-zero value to zero', $DIR/tests/ui-fail/constant.rs:6:35
+  |                                   ^^^^^^^^^^^^ evaluation of `_::{constant#0}` failed here
   |
   = note: this error originates in the macro `$crate::panic::panic_2021` which comes from the expansion of the macro `non_zero` (in Nightly builds, run with -Z macro-backtrace for more info)
 
@@ -62,11 +62,11 @@ note: erroneous constant encountered
   |
   = note: this note originates in the macro `non_zero` (in Nightly builds, run with -Z macro-backtrace for more info)
 
-error[E0080]: evaluation of `_::{constant#0}` failed
+error[E0080]: evaluation panicked: tried initialising a non-zero value to zero
  --> tests/ui-fail/constant.rs:7:37
   |
 7 | const _: std::num::NonZero<usize> = non_zero!(0);
-  |                                     ^^^^^^^^^^^^ the evaluated program panicked at 'tried initialising a non-zero value to zero', $DIR/tests/ui-fail/constant.rs:7:37
+  |                                     ^^^^^^^^^^^^ evaluation of `_::{constant#0}` failed here
   |
   = note: this error originates in the macro `$crate::panic::panic_2021` which comes from the expansion of the macro `non_zero` (in Nightly builds, run with -Z macro-backtrace for more info)
 
@@ -78,11 +78,11 @@ note: erroneous constant encountered
   |
   = note: this note originates in the macro `non_zero` (in Nightly builds, run with -Z macro-backtrace for more info)
 
-error[E0080]: evaluation of `_::{constant#0}` failed
+error[E0080]: evaluation panicked: tried initialising a non-zero value to zero
  --> tests/ui-fail/constant.rs:8:34
   |
 8 | const _: std::num::NonZero<i8> = non_zero!(0);
-  |                                  ^^^^^^^^^^^^ the evaluated program panicked at 'tried initialising a non-zero value to zero', $DIR/tests/ui-fail/constant.rs:8:34
+  |                                  ^^^^^^^^^^^^ evaluation of `_::{constant#0}` failed here
   |
   = note: this error originates in the macro `$crate::panic::panic_2021` which comes from the expansion of the macro `non_zero` (in Nightly builds, run with -Z macro-backtrace for more info)
 
@@ -94,11 +94,11 @@ note: erroneous constant encountered
   |
   = note: this note originates in the macro `non_zero` (in Nightly builds, run with -Z macro-backtrace for more info)
 
-error[E0080]: evaluation of `_::{constant#0}` failed
+error[E0080]: evaluation panicked: tried initialising a non-zero value to zero
  --> tests/ui-fail/constant.rs:9:35
   |
 9 | const _: std::num::NonZero<i16> = non_zero!(0);
-  |                                   ^^^^^^^^^^^^ the evaluated program panicked at 'tried initialising a non-zero value to zero', $DIR/tests/ui-fail/constant.rs:9:35
+  |                                   ^^^^^^^^^^^^ evaluation of `_::{constant#0}` failed here
   |
   = note: this error originates in the macro `$crate::panic::panic_2021` which comes from the expansion of the macro `non_zero` (in Nightly builds, run with -Z macro-backtrace for more info)
 
@@ -110,11 +110,11 @@ note: erroneous constant encountered
   |
   = note: this note originates in the macro `non_zero` (in Nightly builds, run with -Z macro-backtrace for more info)
 
-error[E0080]: evaluation of `_::{constant#0}` failed
+error[E0080]: evaluation panicked: tried initialising a non-zero value to zero
   --> tests/ui-fail/constant.rs:10:35
    |
 10 | const _: std::num::NonZero<i32> = non_zero!(0);
-   |                                   ^^^^^^^^^^^^ the evaluated program panicked at 'tried initialising a non-zero value to zero', $DIR/tests/ui-fail/constant.rs:10:35
+   |                                   ^^^^^^^^^^^^ evaluation of `_::{constant#0}` failed here
    |
    = note: this error originates in the macro `$crate::panic::panic_2021` which comes from the expansion of the macro `non_zero` (in Nightly builds, run with -Z macro-backtrace for more info)
 
@@ -126,11 +126,11 @@ note: erroneous constant encountered
    |
    = note: this note originates in the macro `non_zero` (in Nightly builds, run with -Z macro-backtrace for more info)
 
-error[E0080]: evaluation of `_::{constant#0}` failed
+error[E0080]: evaluation panicked: tried initialising a non-zero value to zero
   --> tests/ui-fail/constant.rs:11:35
    |
 11 | const _: std::num::NonZero<i64> = non_zero!(0);
-   |                                   ^^^^^^^^^^^^ the evaluated program panicked at 'tried initialising a non-zero value to zero', $DIR/tests/ui-fail/constant.rs:11:35
+   |                                   ^^^^^^^^^^^^ evaluation of `_::{constant#0}` failed here
    |
    = note: this error originates in the macro `$crate::panic::panic_2021` which comes from the expansion of the macro `non_zero` (in Nightly builds, run with -Z macro-backtrace for more info)
 
@@ -142,11 +142,11 @@ note: erroneous constant encountered
    |
    = note: this note originates in the macro `non_zero` (in Nightly builds, run with -Z macro-backtrace for more info)
 
-error[E0080]: evaluation of `_::{constant#0}` failed
+error[E0080]: evaluation panicked: tried initialising a non-zero value to zero
   --> tests/ui-fail/constant.rs:12:37
    |
 12 | const _: std::num::NonZero<isize> = non_zero!(0);
-   |                                     ^^^^^^^^^^^^ the evaluated program panicked at 'tried initialising a non-zero value to zero', $DIR/tests/ui-fail/constant.rs:12:37
+   |                                     ^^^^^^^^^^^^ evaluation of `_::{constant#0}` failed here
    |
    = note: this error originates in the macro `$crate::panic::panic_2021` which comes from the expansion of the macro `non_zero` (in Nightly builds, run with -Z macro-backtrace for more info)
 

@@ -3,6 +3,8 @@ use non_zero::non_zero;
 /// Test different kinds of expressions.
 #[test]
 fn expressions() {
+    #![expect(clippy::unnecessary_cast, clippy::unnecessary_literal_unwrap)]
+
     const SIX: i64 = 6;
 
     // just a literal
@@ -61,6 +63,7 @@ fn edges() {
     test_signed!(isize);
 }
 
+/// Make sure that the result is `const`;
 #[test]
 fn constness() {
     use std::num::NonZero;

@@ -1,3 +1,5 @@
+<!-- cargo-rdme start -->
+
 # non-zero
 
 A macro for creating constant non-zero integers (with type inference).
@@ -35,6 +37,8 @@ the real definition produces prettier errors than `unwrap` and is more hygienic.
 This crate uses the same name as `std` does for its types.
 Namely, with a hyphen between "non" and "zero".
 In `snake_case` the hyphen becomes an underscore and in `PascalCase` it creates a word break.
+
+<!-- cargo-rdme end -->
 
 ## License
 
